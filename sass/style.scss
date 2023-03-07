@@ -160,9 +160,10 @@ bottom: 160px;
   
 }
 
-// .offer {
-  
-// }
+.offer {
+  display: flex;
+  flex-direction: row;
+}
 // .offer i {
 //   margin-right: 15px;
 //   font-size: 30px;
