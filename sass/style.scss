@@ -136,6 +136,10 @@ bottom: 160px;
     justify-self: center;
 }
 
+.section-services {
+ padding: 40px;
+}
+
 .header-services {
   display: flex;
   align-items: center;
@@ -163,6 +167,20 @@ bottom: 160px;
 .offer {
   display: flex;
   flex-direction: row;
+  .three-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font-size: 25px;
+      font-family: 'EB Garamond', serif;
+    }
+    p {
+      color: #636060;
+      font-size: 18px;
+    }
+  }
 }
 // .offer i {
 //   margin-right: 15px;
