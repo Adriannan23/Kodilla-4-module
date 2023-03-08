@@ -36,7 +36,6 @@ li, a {
 
 .logo {
   cursor: pointer;
-  margin-right: auto;
   background-color: $color-main;
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
@@ -70,7 +69,7 @@ margin-right: 250px;
   overflow: hidden;
   position: relative;
   li {
-  
+
     padding: 0px 20px;
     a {
       transition: all 0.3s ease 0s;
@@ -116,7 +115,7 @@ bottom: 160px;
     margin-top: 20px;
     &:hover {
       transition: all 0.2s;
-      background-color:#ff9900;
+      background-color: #f7ea5c;  
     }
   }
   .medium-one{
@@ -175,22 +174,28 @@ bottom: 160px;
     h1 {
       font-size: 25px;
       font-family: 'EB Garamond', serif;
+      margin-bottom: 10px;
     }
     p {
       color: #636060;
       font-size: 18px;
+      text-align: center;
+      line-height: 1.5;
     }
   }
 }
-// .offer i {
-//   margin-right: 15px;
-//   font-size: 30px;
-//   color: #fff;
-//   width: 60px;
-//   height: 60px;
-//   background-color: $color-main;
-//   border-radius: 50%;
-//   text-align: center;
-//   line-height: 60px;
-// }
 
+.three-boxes i {
+    
+    font-size: 50px;
+    color: #fff;
+    width: 85px;
+    height: 85px;
+    background-color: $color-main;
+    border-radius: 50%;
+    text-align: center;
+    line-height:90px;
+    margin-bottom: 20px;
+  }
+  
+  
