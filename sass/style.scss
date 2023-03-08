@@ -136,7 +136,8 @@ bottom: 160px;
 }
 
 .section-services {
- padding: 40px;
+ padding: 30px;
+ margin: 0 0 100px 0;
 }
 
 .header-services {
@@ -148,9 +149,10 @@ bottom: 160px;
   .span-header-services {
     font-size: 60px;
     font-weight: 800;
+    
   }
   .span-header-services-mini {
-    padding-top: 30px;
+   
     font-size: 25px;
     font-style: italic;
     color: #636060;
@@ -171,6 +173,7 @@ bottom: 160px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 5px;
     h1 {
       font-size: 25px;
       font-family: 'EB Garamond', serif;
@@ -197,5 +200,62 @@ bottom: 160px;
     line-height:90px;
     margin-bottom: 20px;
   }
+  .portfolio {
+    background-color: rgb(208, 243, 255);
+    padding: 150px 0;
+  }
   
+  .gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    h3 {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    p{
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
   
+  .column img {
+    width: 100%;
+    height: auto;
+    margin-right: 3px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 30px;
+  }
+  
+  .header-portfolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .span-header-services {
+    font-size: 60px;
+    font-weight: 800;
+  }
+  
+  .span-header-services-mini {
+   
+    font-size: 25px;
+    font-style: italic;
+    color: #636060;
+  }
