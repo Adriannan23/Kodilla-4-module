@@ -144,7 +144,7 @@ li, a {
   font-size: 60px;
   font-weight: 800;
 }
-.header-services .services-not-main-p {
+.header-services .services-description {
   font-size: 25px;
   font-style: italic;
   color: #636060;
@@ -256,7 +256,7 @@ li, a {
   font-family: "EB Garamond", serif;
 }
 
-.portofolio-not-main-p {
+.portofolio-description {
   font-size: 25px;
   font-style: italic;
   color: #636060;
