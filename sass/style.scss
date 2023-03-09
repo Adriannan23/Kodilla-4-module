@@ -263,6 +263,7 @@ bottom: 160px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+    bottom:20px;
   }
 
   .header-portfolio-main {
@@ -343,4 +344,91 @@ container {
   display: flex;
   flex-direction: column;
 }
+
+.nav-links {
+display: flex;
+flex-wrap: wrap;
+}
+
+.navigation {
+  position: relative;
+}
+.nav-p {
+  position: absolute;
+bottom: 30px;
+}
+
+.big-one {
+  text-align: center;
+}
+
+.medium-one {
+margin-left: 10%;
+
+}
+.logo {
+  margin-left:60px;
+
+
+}
+.header-services {
+
+  padding: 15px 0 35px;
+  .services-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.three-boxes {
+  padding-bottom: 35px;
+}
+
+.section-services {
+  margin-bottom: 5px;
+}
+
+.portfolio {
+padding: 8px 0;
+}
+
+.header-portfolio-main {
+  text-align: center;
+}
+
+.header-portfolio {
+  margin-bottom: 5px;
+  position: relative;
+  bottom: -20px;
+}
+
+.row {
+  display: grid;
+  justify-items: center;
+margin-bottom:25px;
+}
+
+.column {
+  margin-top:5px;
+  img {
+    margin-top: 15px;
+  }
+}
+.footer-description {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  padding-top: 12px;
+
+  h5 {
+    position: relative;
+    top: 125px;
+  }
+  .footer-icons {
+    position: relative;
+    bottom: 60px;
+  }
+}
+
 }
