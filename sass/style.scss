@@ -7,7 +7,7 @@ $color-main: #FFD700;
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 
@@ -64,14 +64,14 @@ margin-right: 250px;
   transition: 2.5s;
   &:hover {
   background-position: -120% 0;
-    
+
   }
 }
 
 .nav-links {
- 
+
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   flex-direction: row;
   list-style: none;
@@ -98,7 +98,7 @@ margin-right: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .nav-p {
@@ -124,7 +124,7 @@ bottom: 160px;
     margin-top: 20px;
     &:hover {
       transition: all 0.2s;
-      background-color: #f7ea5c;  
+      background-color: #f7ea5c;
     }
   }
   .medium-one{
@@ -156,13 +156,13 @@ bottom: 160px;
   justify-content: center;
   flex-direction: column;
   padding: 120px;
-  .span-header-services {
+  .header-services-main {
     font-size: 60px;
     font-weight: 800;
-    
+
   }
-  .span-header-services-mini {
-   
+  .services-description {
+
     font-size: 25px;
     font-style: italic;
     color: #636060;
@@ -172,7 +172,7 @@ bottom: 160px;
 .a-links {
   display: flex;
   flex-direction: row;
-  
+
 }
 
 .offer {
@@ -199,7 +199,7 @@ bottom: 160px;
 }
 
 .three-boxes i {
-    
+
     font-size: 50px;
     color: $color-main;
     width: 85px;
@@ -220,7 +220,7 @@ bottom: 160px;
     background-color: rgb(208, 243, 255);
     padding: 150px 0;
   }
-  
+
   .gallery {
     margin-top: 20px;
     display: flex;
@@ -241,27 +241,29 @@ bottom: 160px;
     font-family: 'EB Garamond', serif;
     }
   }
-  
+
   .column img {
     width: 350px;
     height: 350px;
     margin-right: 3px;
   }
 
+
   .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+
   }
-  
+
   .column {
     flex: 33.33%;
     padding: 30px;
     position: relative;
     margin-bottom: 40px;
   }
-  
+
   .header-portfolio {
     display: flex;
     justify-content: center;
@@ -269,24 +271,28 @@ bottom: 160px;
     align-items: center;
     margin-bottom: 40px;
   }
-  
-  .span-header-services {
+
+  .header-portfolio-main {
     font-size: 60px;
     font-weight: 800;
     font-family: 'EB Garamond', serif;
   }
-  
-  .span-header-services-mini {
-   
+
+  .portofolio-description {
+
     font-size: 25px;
     font-style: italic;
     color: #636060;
   }
-  
+
   .photo-description {
     background-color: #fff;
     width: 350px;
     height: 100px;
     position: absolute;
     top: 380px;
+  }
+
+  .row {
+    margin-bottom: 60px;
   }
