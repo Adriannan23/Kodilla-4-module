@@ -332,3 +332,15 @@ bottom: 160px;
     font-family: 'EB Garamond', serif;
 }
 }
+
+@media (max-width: 767px) {
+
+container {
+  display: flex;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+}
+}
